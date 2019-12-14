@@ -6,10 +6,6 @@ Implementing NMT on an IWSLT dataset, using sequence-to-sequence (seq2seq) model
 * tensorflow(used v1.4.1)
 * nltk(used v3.3)
 
-# Usage
-Code to be run in Linux terminal to train and evaluate the model : 
-
-`$ python main_nmt.py`
 
 # Code Organization
 * ```main_nmt.py``` : This file contains the main program. This directs the model to run training/evaluation as directed.
@@ -21,17 +17,7 @@ Code to be run in Linux terminal to train and evaluate the model :
 * ```additional_functions.py``` : The file defines functions to load data and and to format the output.
 * ```calculate\_bleu\_score.py``` : This file calculates the BLEU-4 score given two files to be compared. Usage : `python calculate_bleu_score.py /path/to/reference_file /path/to/predicted_file`
 
-# Datasets Used
-English-Vietnamese parallel corpus of TED Talks, provided by the [IWSLT Evaluation Campaign](https://sites.google.com/site/iwsltevaluation2015/).
-Preprocessed data from [The Stanford NLP group](https://nlp.stanford.edu/projects/nmt/) was used to train and test the models.
-* ```Datasets/train.en``` (train source set)
-* ```Datasets/train.vi``` (train target set)
-* ```Datasets/tst2013.en``` (validation source set)
-* ```Datasets/tst2013.vi``` (validation target set)
-* ```Datasets/tst2012.en``` (test source set)
-* ```Datasets/tst2012.vi``` (test target set)
-* ```Vocabulary_Files/vocab.en``` (source vocabulary)
-* ```Vocabulary_Files/vocab.vi``` (target vocabulary)
+
 
 # References
 * [Neural Machine Translation(seq2seq) Tutorial](https://www.tensorflow.org/tutorials/seq2seq) by Tensorflow and their [source code](https://github.com/tensorflow/nmt) 
