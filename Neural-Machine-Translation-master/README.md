@@ -1,5 +1,5 @@
 # Neural-Machine-Translation
-Implementing NMT on an IWSLT dataset, using sequence-to-sequence (seq2seq) models, in Tensorflow
+Attempt to implement NMT on an IWSLT dataset, using sequence-to-sequence (seq2seq) models, in Tensorflow
 
 # Dependencies
 * Python(used v2.7.12)
